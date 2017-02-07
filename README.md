@@ -1,5 +1,6 @@
 <p align="center">
- <img src="https://github.com/CabezasGonzalezJavier/FullRecycleView/blob/master/title.png" />
+ <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/LopeAnimations.png" />
+ <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/finalLopeNeww.jpg" />
  <h4>This is a compilation about differents animations between activities</h4>
 </p>
 
