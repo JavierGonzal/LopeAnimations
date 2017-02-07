@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lope</string>
+    <string name="back">Back</string>
+    <string name="activity_gmail_title">Gmail</string>
+</resources>
