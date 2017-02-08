@@ -60,21 +60,33 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_above="@+id/activity_main_gmail_button"
+        android:layout_centerInParent="true"
         android:background="@drawable/background_button"
         android:onClick="goToUp"
         android:text="@string/activity_main_up_title"
         android:textColor="@color/colorTextButton" />
 
     <Button
+        android:id="@+id/main_activity_down"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_below="@+id/activity_main_gmail_button"
+        android:layout_centerInParent="true"
         android:background="@drawable/background_button"
-        android:onClick="goToRight"
+        android:onClick="goToDown"
         android:text="@string/activity_main_down_title"
+        android:textColor="@color/colorTextButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_down"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/background_button"
+        android:onClick="goToiOS"
+        android:text="@string/activity_main_ios_title"
         android:textColor="@color/colorTextButton" />
 
 </RelativeLayout>

@@ -6,4 +6,5 @@
     <string name="activity_main_left_title">Left</string>
     <string name="activity_main_up_title">Up</string>
     <string name="activity_main_down_title">Down</string>
+    <string name="activity_main_ios_title">iOS</string>
 </resources>

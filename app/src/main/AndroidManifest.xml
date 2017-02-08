@@ -29,6 +29,12 @@
         <activity
             android:name=".UpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DownActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IosActivity"
+            android:theme="@style/AppTheme.TransparentWindow"  />
     </application>
 
 </manifest>

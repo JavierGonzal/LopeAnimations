@@ -27,6 +27,7 @@ dependencies {
     })
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     testCompile "junit:junit:$rootProject.junitVersion"
+    compile 'com.android.support:percent:24.2.1'
 
     compile "com.jakewharton:butterknife:$rootProject.butterKnife"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnife"

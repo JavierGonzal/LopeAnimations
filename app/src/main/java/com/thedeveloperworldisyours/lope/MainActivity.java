@@ -33,4 +33,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, UpActivity.class);
         startActivity(intent);
     }
+
+    public void goToDown(View view) {
+        Intent intent = new Intent(this, DownActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToiOS(View view) {
+        Intent intent = new Intent(this, IosActivity.class);
+        startActivity(intent);
+    }
 }
