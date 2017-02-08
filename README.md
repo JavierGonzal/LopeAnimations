@@ -1,6 +1,6 @@
 
 <p align="center">
- <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portaltotal.png" /> 
+ <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portaltotal.png" width="300px"/> 
 </p>
 
 # About
