@@ -23,4 +23,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RightActivity.class);
         startActivity(intent);
     }
+
+    public void goToLeft(View view) {
+        Intent intent = new Intent(this, LeftActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToUp(View view) {
+        Intent intent = new Intent(this, UpActivity.class);
+        startActivity(intent);
+    }
 }

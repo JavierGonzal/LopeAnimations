@@ -23,7 +23,12 @@
         <activity
             android:name=".RightActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LeftActivity"></activity>
+        <activity
+            android:name=".LeftActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

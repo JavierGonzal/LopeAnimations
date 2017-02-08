@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Lope</string>
     <string name="back">Back</string>
-    <string name="activity_gmail_title">Gmail</string>
+    <string name="activity_main_gmail_title">Gmail</string>
+    <string name="activity_main_right_title">Right</string>
+    <string name="activity_main_left_title">Left</string>
+    <string name="activity_main_up_title">Up</string>
+    <string name="activity_main_down_title">Down</string>
 </resources>

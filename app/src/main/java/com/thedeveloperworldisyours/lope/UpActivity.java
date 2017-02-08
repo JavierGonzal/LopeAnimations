@@ -9,16 +9,16 @@ import android.view.View;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class LeftActivity extends AppCompatActivity {
+public class UpActivity extends AppCompatActivity {
 
-    @BindView(R.id.activity_left_toolbar)
+    @BindView(R.id.activity_up_toolbar)
     Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.left_activity);
-        overridePendingTransition(R.anim.left_go_in, R.anim.left_go_out);
-
+        setContentView(R.layout.up_activity);
+        overridePendingTransition(R.anim.up_go_in, R.anim.up_go_out);
         ButterKnife.bind(this);
         mToolbar.setTitle("");
         setSupportActionBar(mToolbar);
@@ -36,7 +36,7 @@ public class LeftActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
-        overridePendingTransition(R.anim.left_back_in, R.anim.left_back_out);
+        overridePendingTransition(R.anim.up_back_in, R.anim.up_back_out);
     }
 
     @Override
