@@ -5,16 +5,18 @@
     android:id="@+id/activity_ios"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorTransparentShadow"
     tools:context="com.thedeveloperworldisyours.lope.IosActivity">
+
     <ImageView
+        android:id="@+id/ios_activity_image_view"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:background="@color/colorPrimary"
-        android:baselineAlignBottom="true"
+        android:layout_margin="@dimen/margin_view"
+        android:background="@drawable/background_primary_color"
         android:src="@drawable/title"
-        app:layout_heightPercent="50%"
-        app:layout_widthPercent="100%"/>
+        app:layout_marginTopPercent="50%"
+        app:layout_heightPercent="40%"
+        app:layout_widthPercent="100%" />
 
     <!--<android.support.v7.widget.Toolbar-->
     <!--android:id="@+id/activity_ios_toolbar"-->
@@ -30,11 +32,14 @@
     <!--android:background="@drawable/toolbar_shadow" />-->
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/ios_activity_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_view"
         android:background="@drawable/background_button"
         android:onClick="back"
         android:text="@string/back"
-        android:textColor="@color/colorTextButton" />
+        android:textColor="@color/colorTextButton"
+        app:layout_marginTopPercent="91%"/>
+
 </android.support.percent.PercentRelativeLayout>

@@ -7,4 +7,7 @@
     <string name="activity_main_up_title">Up</string>
     <string name="activity_main_down_title">Down</string>
     <string name="activity_main_ios_title">iOS</string>
+    <string name="activity_main_scroll_down_title">Scroll \n down</string>
+    <string name="activity_main_diagonal_title">Diagonal</string>
+    <string name="activity_main_divide_title">Devide</string>
 </resources>

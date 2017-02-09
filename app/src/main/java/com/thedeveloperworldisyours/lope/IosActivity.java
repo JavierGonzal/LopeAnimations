@@ -1,27 +1,54 @@
 package com.thedeveloperworldisyours.lope;
 
+import android.os.Build;
+import android.os.CountDownTimer;
+import android.support.percent.PercentRelativeLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class IosActivity extends AppCompatActivity {
 
+    @BindView(R.id.activity_ios)
+    PercentRelativeLayout mPercentRelativeLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        if (Build.VERSION.SDK_INT >= 21) {
+            // Set the status bar to dark-semi-transparentish
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ios_activity);
         overridePendingTransition(R.anim.ios_go_in, R.anim.ios_go_out);
 
         ButterKnife.bind(this);
+        countTime();
+    }
+
+    public void countTime() {
+        new CountDownTimer(700, 700) {
+
+            public void onTick(long millisUntilFinished) {
+                //here you can have your logic to set text to edittext
+            }
+
+            public void onFinish() {
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow));
+            }
+
+        }.start();
     }
 
     public void back(View view) {
+        mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, android.R.color.transparent));
         finishMyActivity();
     }
 

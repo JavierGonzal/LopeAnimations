@@ -34,7 +34,16 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".IosActivity"
-            android:theme="@style/AppTheme.TransparentWindow"  />
+            android:theme="@style/AppTheme.TransparentWindow" />
+        <activity
+            android:name=".ScrollDownActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DiagonalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DivideActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

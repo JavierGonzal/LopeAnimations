@@ -43,4 +43,20 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, IosActivity.class);
         startActivity(intent);
     }
+
+    public void goToScrollDown(View view) {
+        Intent intent = new Intent(this, ScrollDownActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToDiagonal(View view){
+        Intent intent = new Intent(this, DiagonalActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToDivide(View view){
+        Intent intent = new Intent(this, DivideActivity.class);
+        startActivity(intent);
+    }
+
 }
