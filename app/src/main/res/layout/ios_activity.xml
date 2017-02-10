@@ -18,19 +18,6 @@
         app:layout_heightPercent="40%"
         app:layout_widthPercent="100%" />
 
-    <!--<android.support.v7.widget.Toolbar-->
-    <!--android:id="@+id/activity_ios_toolbar"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="?attr/actionBarSize"-->
-    <!--app:navigationIcon="?homeAsUpIndicator"-->
-    <!--app:titleTextColor="@color/colorPrimary" />-->
-
-    <!--<View-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="2dp"-->
-    <!--android:layout_below="@+id/activity_ios_toolbar"-->
-    <!--android:background="@drawable/toolbar_shadow" />-->
-
     <Button
         android:id="@+id/ios_activity_button"
         android:layout_width="match_parent"

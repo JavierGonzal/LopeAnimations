@@ -38,7 +38,7 @@ public class DivideActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
-        overridePendingTransition(R.anim.diagonal_back_out, R.anim.diagonal_back_out);
+        overridePendingTransition(R.anim.divide_back_in, R.anim.divide_back_out);
     }
 
     @Override

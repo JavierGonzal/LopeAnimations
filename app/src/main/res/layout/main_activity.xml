@@ -15,7 +15,7 @@
         android:src="@drawable/title" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/activity_main_toolbar"
+        android:id="@+id/main_activity_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:titleTextColor="@color/colorPrimary" />
@@ -23,11 +23,11 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_below="@+id/activity_main_toolbar"
+        android:layout_below="@+id/main_activity_toolbar"
         android:background="@drawable/toolbar_shadow" />
 
     <Button
-        android:id="@+id/activity_main_gmail_button"
+        android:id="@+id/main_activity_gmail_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -42,17 +42,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_toRightOf="@+id/activity_main_gmail_button"
+        android:layout_toRightOf="@+id/main_activity_gmail_button"
         android:background="@drawable/background_button"
         android:onClick="goToRight"
         android:text="@string/activity_main_right_title"
         android:textColor="@color/colorTextButton" />
 
     <Button
+        android:id="@+id/main_activity_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_toLeftOf="@+id/activity_main_gmail_button"
+        android:layout_toLeftOf="@+id/main_activity_gmail_button"
         android:background="@drawable/background_button"
         android:onClick="goToLeft"
         android:text="@string/activity_main_left_title"
@@ -62,7 +63,7 @@
         android:id="@+id/main_activity_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/activity_main_gmail_button"
+        android:layout_above="@+id/main_activity_gmail_button"
         android:layout_centerInParent="true"
         android:background="@drawable/background_button"
         android:onClick="goToUp"
@@ -73,7 +74,7 @@
         android:id="@+id/main_activity_down_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/activity_main_gmail_button"
+        android:layout_below="@+id/main_activity_gmail_button"
         android:layout_centerInParent="true"
         android:background="@drawable/background_button"
         android:onClick="goToDown"
@@ -108,7 +109,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/activity_main_gmail_button"
+        android:layout_toRightOf="@+id/main_activity_gmail_button"
         android:layout_alignBottom="@+id/main_activity_down_button"
         android:layout_above="@+id/main_activity_right"
         android:layout_centerInParent="true"
@@ -120,7 +121,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/activity_main_gmail_button"
+        android:layout_toRightOf="@+id/main_activity_gmail_button"
         android:layout_alignBottom="@+id/main_activity_up"
         android:layout_above="@+id/main_activity_right"
         android:layout_centerInParent="true"
@@ -128,5 +129,15 @@
         android:onClick="goToDivide"
         android:text="@string/activity_main_divide_title"
         android:textColor="@color/colorTextButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/main_activity_gmail_button"
+        android:layout_above="@+id/main_activity_gmail_button"
+        android:background="@drawable/background_button"
+        android:onClick="goToNavigation"
+        android:text="@string/activity_main_navigation"
+        android:textColor="@color/colorTextButton"/>
 
 </RelativeLayout>

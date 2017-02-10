@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 
 public class DownActivity extends AppCompatActivity {
 
-    @BindView(R.id.activity_down_toolbar)
+    @BindView(R.id.down_activity_toolbar)
     Toolbar mToolbar;
 
     @Override

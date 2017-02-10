@@ -15,7 +15,7 @@
         android:src="@drawable/title" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/activity_gmail_toolbar"
+        android:id="@+id/gmail_activity_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?homeAsUpIndicator"
@@ -24,7 +24,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_below="@+id/activity_gmail_toolbar"
+        android:layout_below="@+id/gmail_activity_toolbar"
         android:background="@drawable/toolbar_shadow" />
 
     <Button

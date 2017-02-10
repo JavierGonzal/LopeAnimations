@@ -10,4 +10,5 @@
     <string name="activity_main_scroll_down_title">Scroll \n down</string>
     <string name="activity_main_diagonal_title">Diagonal</string>
     <string name="activity_main_divide_title">Devide</string>
+    <string name="activity_main_navigation">Navigation</string>
 </resources>

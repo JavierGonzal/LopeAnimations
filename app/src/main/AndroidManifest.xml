@@ -44,6 +44,9 @@
         <activity
             android:name=".DivideActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationActivity"
+            android:theme="@style/AppTheme.TransparentWindow" />
     </application>
 
 </manifest>

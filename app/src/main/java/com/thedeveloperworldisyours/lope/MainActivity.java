@@ -59,4 +59,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToNavigation(View view) {
+        Intent intent = new Intent(this, NavigationActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 
 public class GmailActivity extends AppCompatActivity {
 
-    @BindView(R.id.activity_gmail_toolbar)
+    @BindView(R.id.gmail_activity_toolbar)
     Toolbar mToolbar;
 
     @Override

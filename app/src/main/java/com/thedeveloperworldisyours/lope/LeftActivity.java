@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 
 public class LeftActivity extends AppCompatActivity {
 
-    @BindView(R.id.activity_left_toolbar)
+    @BindView(R.id.left_activity_toolbar)
     Toolbar mToolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
