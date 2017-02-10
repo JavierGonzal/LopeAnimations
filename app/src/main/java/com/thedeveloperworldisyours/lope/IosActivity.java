@@ -41,10 +41,49 @@ public class IosActivity extends AppCompatActivity {
             }
 
             public void onFinish() {
+                timerShadow();
+            }
+
+        }.start();
+    }
+
+
+    public void timerShadow() {
+        new CountDownTimer(200, 40) {
+            int total = 0;
+
+            public void onTick(long millisUntilFinished) {
+                //here you can have your logic to set text to edittext
+                total = total + 1;
+                progressShadow(total);
+            }
+
+            public void onFinish() {
                 mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow));
             }
 
         }.start();
+    }
+
+    public void progressShadow(int iterator) {
+        switch (iterator) {
+            case 1:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow15));
+                break;
+            case 2:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow25));
+                break;
+            case 3:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow35));
+                break;
+            case 4:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow45));
+                break;
+            case 5:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(IosActivity.this, R.color.colorTransparentShadow));
+                break;
+
+        }
     }
 
     public void back(View view) {

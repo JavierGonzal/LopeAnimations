@@ -5,7 +5,6 @@ import android.support.percent.PercentRelativeLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,8 +16,6 @@ public class NavigationActivity extends AppCompatActivity {
 
     @BindView(R.id.navigation_activity)
     PercentRelativeLayout mPercentRelativeLayout;
-
-    int total=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,14 +36,51 @@ public class NavigationActivity extends AppCompatActivity {
             }
 
             public void onFinish() {
+                timerShadow();
+            }
+
+        }.start();
+    }
+
+    public void timerShadow() {
+        new CountDownTimer(200, 40) {
+            int total = 0;
+
+            public void onTick(long millisUntilFinished) {
+                //here you can have your logic to set text to edittext
+                total = total + 1;
+                progressShadow(total);
+            }
+
+            public void onFinish() {
                 mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, R.color.colorTransparentShadow));
             }
 
         }.start();
     }
 
+    public void progressShadow(int iterator) {
+        switch (iterator) {
+            case 1:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, R.color.colorTransparentShadow15));
+                break;
+            case 2:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, R.color.colorTransparentShadow25));
+                break;
+            case 3:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, R.color.colorTransparentShadow35));
+                break;
+            case 4:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, R.color.colorTransparentShadow45));
+                break;
+            case 5:
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, R.color.colorTransparentShadow));
+                break;
+
+        }
+    }
+
     public void back(View view) {
-        mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, android.R.color.transparent));
         finishMyActivity();
     }
 
@@ -56,6 +90,8 @@ public class NavigationActivity extends AppCompatActivity {
     }
 
     public void finishMyActivity() {
+//        timerShadowOpposed();
+                mPercentRelativeLayout.setBackgroundColor(ContextCompat.getColor(NavigationActivity.this, android.R.color.transparent));
         finish();
         overridePendingTransition(R.anim.navigation_back_in, R.anim.navigation_back_out);
     }
