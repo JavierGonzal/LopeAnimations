@@ -47,6 +47,12 @@
         <activity
             android:name=".NavigationActivity"
             android:theme="@style/AppTheme.TransparentWindow" />
+        <activity
+            android:name=".AppearanceActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DefaultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

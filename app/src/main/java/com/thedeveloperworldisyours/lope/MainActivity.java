@@ -49,18 +49,28 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToDiagonal(View view){
+    public void goToDiagonal(View view) {
         Intent intent = new Intent(this, DiagonalActivity.class);
         startActivity(intent);
     }
 
-    public void goToDivide(View view){
+    public void goToDivide(View view) {
         Intent intent = new Intent(this, DivideActivity.class);
         startActivity(intent);
     }
 
     public void goToNavigation(View view) {
         Intent intent = new Intent(this, NavigationActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToAppearance(View view) {
+        Intent intent = new Intent(this, AppearanceActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToDefault(View view) {
+        Intent intent = new Intent(this, DefaultActivity.class);
         startActivity(intent);
     }
 
