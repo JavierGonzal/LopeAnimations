@@ -13,4 +13,6 @@
     <string name="activity_main_navigation">Navigation</string>
     <string name="activity_main_appearance">Appearance</string>
     <string name="activity_main_default">Default</string>
+
+    <string name="activity_menu_between_activities">Between activities</string>
 </resources>

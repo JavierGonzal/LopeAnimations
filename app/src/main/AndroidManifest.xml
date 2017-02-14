@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".MenuActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,6 +52,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".DefaultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BetweenActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

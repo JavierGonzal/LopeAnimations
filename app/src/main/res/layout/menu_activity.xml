@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.thedeveloperworldisyours.lope.MenuActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/menu_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/colorPrimary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/menu_activity_toolbar"
+        android:background="@drawable/toolbar_shadow" />
+
+    <Button
+        android:id="@+id/menu_activity_between_activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background_button"
+        android:onClick="goToBetweenActivities"
+        android:text="@string/activity_menu_between_activities"
+        android:textColor="@color/colorTextButton" />
+
+</RelativeLayout>
