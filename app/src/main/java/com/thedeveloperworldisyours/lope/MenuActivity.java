@@ -13,8 +13,13 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.menu_activity);
     }
 
-    public void goToBetweenActivities(View view) {
-        Intent intent = new Intent(this, BetweenActivity.class);
+    public void goToTransition(View view) {
+        Intent intent = new Intent(this, AnimationActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToTransitions(View view) {
+        Intent intent = new Intent(this, TransitionActivity.class);
         startActivity(intent);
     }
 }

@@ -13,6 +13,7 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="elevation">0dp</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
 
     <style name="AppTheme.TransparentWindow">
@@ -22,6 +23,17 @@
         <item name="elevation">0dp</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MaterialAnimations" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">@transition/fade</item>
+        <item name="android:windowSharedElementExitTransition">@transition/fade</item>
     </style>
 
 </resources>

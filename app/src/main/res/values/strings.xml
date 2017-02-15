@@ -1,6 +1,8 @@
 <resources>
+
     <string name="app_name">Lope</string>
     <string name="back">Back</string>
+
     <string name="activity_main_gmail_title">Gmail</string>
     <string name="activity_main_right_title">Right</string>
     <string name="activity_main_left_title">Left</string>
@@ -14,5 +16,9 @@
     <string name="activity_main_appearance">Appearance</string>
     <string name="activity_main_default">Default</string>
 
-    <string name="activity_menu_between_activities">Between activities</string>
+    <string name="activity_menu_animation_between_activities">Animation between activities</string>
+    <string name="activity_menu_transition_between_activities">Transition between activities</string>
+
+    <string name="blue_name">Blue</string>
+
 </resources>

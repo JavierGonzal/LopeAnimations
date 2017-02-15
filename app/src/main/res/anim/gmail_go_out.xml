@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scale xmlns:android="http://schemas.android.com/apk/res/android"
-    android:duration="700"
+    android:duration="@integer/animation_duration"
     android:fromXScale="100%"
     android:fromYScale="100%"
     android:pivotX="50%"

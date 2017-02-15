@@ -54,7 +54,11 @@
             android:name=".DefaultActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BetweenActivity"
+            android:name=".AnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TransitionActivity" />
+        <activity
+            android:name=".SecondTransitionActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
