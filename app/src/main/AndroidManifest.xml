@@ -18,47 +18,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GmailActivity"
+            android:name=".MenuAnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".animation.GmailActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".RightActivity"
+            android:name=".animation.RightActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".LeftActivity"
+            android:name=".animation.LeftActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".UpActivity"
+            android:name=".animation.UpActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DownActivity"
+            android:name=".animation.DownActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".IosActivity"
+            android:name=".animation.IosActivity"
             android:theme="@style/AppTheme.TransparentWindow" />
         <activity
-            android:name=".ScrollDownActivity"
+            android:name=".animation.ScrollDownActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DiagonalActivity"
+            android:name=".animation.DiagonalActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DivideActivity"
+            android:name=".animation.DivideActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".NavigationActivity"
+            android:name=".animation.NavigationActivity"
             android:theme="@style/AppTheme.TransparentWindow" />
         <activity
-            android:name=".AppearanceActivity"
+            android:name=".animation.AppearanceActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DefaultActivity"
+            android:name=".animation.DefaultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".MenuTransitionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".transition.ElementStartActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".AnimationActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TransitionActivity" />
-        <activity
-            android:name=".SecondTransitionActivity"
+            android:name=".transition.ElementEndActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

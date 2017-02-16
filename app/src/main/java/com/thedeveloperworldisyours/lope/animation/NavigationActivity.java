@@ -1,13 +1,14 @@
-package com.thedeveloperworldisyours.lope;
+package com.thedeveloperworldisyours.lope.animation;
 
 import android.os.CountDownTimer;
 import android.support.percent.PercentRelativeLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.thedeveloperworldisyours.lope.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

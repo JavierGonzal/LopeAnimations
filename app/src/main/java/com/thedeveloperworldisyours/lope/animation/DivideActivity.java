@@ -1,4 +1,4 @@
-package com.thedeveloperworldisyours.lope;
+package com.thedeveloperworldisyours.lope.animation;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,20 +6,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.thedeveloperworldisyours.lope.R;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class LeftActivity extends AppCompatActivity {
+public class DivideActivity extends AppCompatActivity {
 
-    @BindView(R.id.left_activity_toolbar)
+    @BindView(R.id.divide_activity_toolbar)
     Toolbar mToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.left_activity);
-        overridePendingTransition(R.anim.left_go_in, R.anim.left_go_out);
+        setContentView(R.layout.divide_activity);
+        overridePendingTransition(R.anim.divide_go_in, R.anim.divide_go_out);
 
         ButterKnife.bind(this);
+
         mToolbar.setTitle("");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -36,7 +40,7 @@ public class LeftActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
-        overridePendingTransition(R.anim.left_back_in, R.anim.left_back_out);
+        overridePendingTransition(R.anim.divide_back_in, R.anim.divide_back_out);
     }
 
     @Override
@@ -49,3 +53,4 @@ public class LeftActivity extends AppCompatActivity {
         return true;
     }
 }
+

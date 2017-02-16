@@ -1,4 +1,4 @@
-package com.thedeveloperworldisyours.lope;
+package com.thedeveloperworldisyours.lope.animation;
 
 import android.os.Build;
 import android.os.CountDownTimer;
@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+
+import com.thedeveloperworldisyours.lope.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

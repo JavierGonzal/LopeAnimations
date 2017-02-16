@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/sscroll_down_activity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second_transition"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thedeveloperworldisyours.lope.SscrollDownActivity">
+    android:background="@color/colorPrimary"
+    tools:context="com.thedeveloperworldisyours.lope.transition.ElementEndActivity">
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="80dp"
@@ -13,7 +15,7 @@
         android:src="@drawable/title" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/sscroll_down_activity_toolbar"
+        android:id="@+id/element_end_activity_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?homeAsUpIndicator"
@@ -22,15 +24,17 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_below="@+id/scroll_down_activity_toolbar"
+        android:layout_below="@+id/element_end_activity_toolbar"
         android:background="@drawable/toolbar_shadow" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="@drawable/background_button"
+    <ImageButton
+        android:id="@+id/secondary_transition_activity_small_blue_icon"
+        style="@style/MaterialAnimations"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/square"
         android:onClick="back"
-        android:text="@string/back"
-        android:textColor="@color/colorTextButton" />
+        android:transitionName="@string/blue_name" />
+
 </RelativeLayout>

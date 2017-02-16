@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.thedeveloperworldisyours.lope.transition.ElementStartActivity;
+
 public class MenuActivity extends AppCompatActivity {
 
     @Override
@@ -14,12 +16,16 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void goToTransition(View view) {
-        Intent intent = new Intent(this, AnimationActivity.class);
+        Intent intent = new Intent(this, MenuAnimationActivity.class);
         startActivity(intent);
     }
 
     public void goToTransitions(View view) {
-        Intent intent = new Intent(this, TransitionActivity.class);
+        Intent intent = new Intent(this, MenuTransitionActivity.class);
         startActivity(intent);
+    }
+
+    public void goToAnimationAndTransitions(View view) {
+
     }
 }

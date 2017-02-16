@@ -1,4 +1,4 @@
-package com.thedeveloperworldisyours.lope;
+package com.thedeveloperworldisyours.lope.animation;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,22 +6,25 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.thedeveloperworldisyours.lope.R;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class ScrollDownActivity extends AppCompatActivity {
+public class AppearanceActivity extends AppCompatActivity {
 
-    @BindView(R.id.scroll_down_activity_toolbar)
+    @BindView(R.id.appearance_activity_toolbar)
     Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.scroll_down_activity);
+        setContentView(R.layout.appearance_activity);
 
-        overridePendingTransition(R.anim.scroll_down_go_in, R.anim.scroll_down_go_out);
+        overridePendingTransition(R.anim.appearance_go_in, R.anim.appearance_go_out);
 
         ButterKnife.bind(this);
+
         mToolbar.setTitle("");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -38,7 +41,7 @@ public class ScrollDownActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
-        overridePendingTransition(R.anim.scroll_down_back_in, R.anim.scroll_down_back_out);
+        overridePendingTransition(R.anim.appearance_back_in, R.anim.appearance_back_out);
     }
 
     @Override
@@ -50,5 +53,4 @@ public class ScrollDownActivity extends AppCompatActivity {
         }
         return true;
     }
-
 }

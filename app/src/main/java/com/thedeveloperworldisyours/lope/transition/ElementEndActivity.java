@@ -1,26 +1,32 @@
-package com.thedeveloperworldisyours.lope;
+package com.thedeveloperworldisyours.lope.transition;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.transition.Slide;
+import android.transition.TransitionInflater;
 import android.view.MenuItem;
 import android.view.View;
+
+import com.thedeveloperworldisyours.lope.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class DownActivity extends AppCompatActivity {
+public class ElementEndActivity extends AppCompatActivity {
 
-    @BindView(R.id.down_activity_toolbar)
+    @BindView(R.id.element_end_activity_toolbar)
     Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.down_activity);
-        overridePendingTransition(R.anim.down_go_in, R.anim.down_go_out);
-
+        setContentView(R.layout.element_end_activity);
+//        setupWindowAnimations();
         ButterKnife.bind(this);
+
         mToolbar.setTitle("");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -37,7 +43,6 @@ public class DownActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
-        overridePendingTransition(R.anim.down_back_in, R.anim.down_back_out);
     }
 
     @Override
@@ -49,4 +54,11 @@ public class DownActivity extends AppCompatActivity {
         }
         return true;
     }
+
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    private void setupWindowAnimations() {
+        Slide slide = (Slide) TransitionInflater.from(this).inflateTransition(R.transition.slide_and_changebounds);
+        getWindow().setExitTransition(slide);
+    }
+
 }

@@ -2,11 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/left_activity"
+    android:id="@+id/activity_menu_transition"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.thedeveloperworldisyours.lope.animation.LeftActivity">
+    tools:context="com.thedeveloperworldisyours.lope.MenuTransitionActivity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -15,25 +15,27 @@
         android:src="@drawable/title" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/left_activity_toolbar"
+        android:id="@+id/menu_transition_activity_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:navigationIcon="?homeAsUpIndicator"
         app:titleTextColor="@color/colorPrimary" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_below="@+id/left_activity_toolbar"
+        android:layout_below="@+id/menu_transition_activity_toolbar"
         android:background="@drawable/toolbar_shadow" />
 
     <Button
+        android:id="@+id/menu_transition_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_margin="@dimen/margin_view"
         android:background="@drawable/background_button"
-        android:onClick="back"
-        android:text="@string/back"
+        android:onClick="goToElementTransition"
+        android:padding="@dimen/padding_view"
+        android:text="@string/activity_menu_transition_between_activities"
         android:textColor="@color/colorTextButton" />
 
 </RelativeLayout>

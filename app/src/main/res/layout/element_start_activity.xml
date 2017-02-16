@@ -2,11 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/left_activity"
+    android:id="@+id/activity_transition"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.thedeveloperworldisyours.lope.animation.LeftActivity">
+    tools:context="com.thedeveloperworldisyours.lope.transition.ElementStartActivity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
         android:src="@drawable/title" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/left_activity_toolbar"
+        android:id="@+id/element_start_activity_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?homeAsUpIndicator"
@@ -24,16 +24,17 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_below="@+id/left_activity_toolbar"
+        android:layout_below="@+id/element_start_activity_toolbar"
         android:background="@drawable/toolbar_shadow" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/element_start_activity_small_blue_icon"
+        style="@style/MaterialAnimations"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_centerInParent="true"
-        android:background="@drawable/background_button"
-        android:onClick="back"
-        android:text="@string/back"
-        android:textColor="@color/colorTextButton" />
+        android:background="@drawable/square"
+        android:onClick="goToSecondTransition"
+        android:transitionName="@string/blue_name" />
 
 </RelativeLayout>

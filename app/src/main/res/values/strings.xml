@@ -18,6 +18,7 @@
 
     <string name="activity_menu_animation_between_activities">Animation between activities</string>
     <string name="activity_menu_transition_between_activities">Transition between activities</string>
+    <string name="activity_menu_animation_and_transition_between_activities">Animation and Transition</string>
 
     <string name="blue_name">Blue</string>
 

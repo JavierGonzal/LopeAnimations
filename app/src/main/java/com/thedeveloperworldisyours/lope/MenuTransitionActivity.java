@@ -1,24 +1,26 @@
 package com.thedeveloperworldisyours.lope;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.thedeveloperworldisyours.lope.transition.ElementStartActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class DivideActivity extends AppCompatActivity {
+public class MenuTransitionActivity extends AppCompatActivity {
 
-    @BindView(R.id.divide_activity_toolbar)
+    @BindView(R.id.menu_transition_activity_toolbar)
     Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.divide_activity);
-        overridePendingTransition(R.anim.divide_go_in, R.anim.divide_go_out);
+        setContentView(R.layout.menu_transition_activity);
 
         ButterKnife.bind(this);
 
@@ -38,7 +40,6 @@ public class DivideActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
-        overridePendingTransition(R.anim.divide_back_in, R.anim.divide_back_out);
     }
 
     @Override
@@ -50,5 +51,10 @@ public class DivideActivity extends AppCompatActivity {
         }
         return true;
     }
-}
 
+
+    public void goToElementTransition(View view) {
+        Intent intent = new Intent(this, ElementStartActivity.class);
+        startActivity(intent);
+    }
+}

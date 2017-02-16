@@ -5,12 +5,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class AnimationActivity extends AppCompatActivity {
+import com.thedeveloperworldisyours.lope.animation.AppearanceActivity;
+import com.thedeveloperworldisyours.lope.animation.DefaultActivity;
+import com.thedeveloperworldisyours.lope.animation.DiagonalActivity;
+import com.thedeveloperworldisyours.lope.animation.DivideActivity;
+import com.thedeveloperworldisyours.lope.animation.DownActivity;
+import com.thedeveloperworldisyours.lope.animation.GmailActivity;
+import com.thedeveloperworldisyours.lope.animation.IosActivity;
+import com.thedeveloperworldisyours.lope.animation.LeftActivity;
+import com.thedeveloperworldisyours.lope.animation.NavigationActivity;
+import com.thedeveloperworldisyours.lope.animation.RightActivity;
+import com.thedeveloperworldisyours.lope.animation.ScrollDownActivity;
+import com.thedeveloperworldisyours.lope.animation.UpActivity;
+
+public class MenuAnimationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.between_activity);
+        setContentView(R.layout.menu_animation_activity);
 
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }

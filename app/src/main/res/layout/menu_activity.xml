@@ -36,17 +36,31 @@
         android:padding="@dimen/padding_view"
         android:text="@string/activity_menu_animation_between_activities"
         android:textColor="@color/colorTextButton" />
+
     <Button
         android:id="@+id/menu_activity_transition_between_activities"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_margin="@dimen/margin_view"
+        android:layout_marginTop="@dimen/margin_view"
         android:layout_below="@+id/menu_activity_animation_between_activities"
         android:background="@drawable/background_button"
         android:onClick="goToTransitions"
         android:padding="@dimen/padding_view"
         android:text="@string/activity_menu_transition_between_activities"
+        android:textColor="@color/colorTextButton" />
+
+    <Button
+        android:id="@+id/menu_activity_animation_and_transition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_view"
+        android:layout_below="@+id/menu_activity_transition_between_activities"
+        android:background="@drawable/background_button"
+        android:onClick="goToAnimationAndTransitions"
+        android:padding="@dimen/padding_view"
+        android:text="@string/activity_menu_animation_and_transition_between_activities"
         android:textColor="@color/colorTextButton" />
 
 </RelativeLayout>
