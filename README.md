@@ -3,14 +3,33 @@
  <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portal1470.png" /> 
 </p>
 
+[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide] | [Up][up]
+--- | --- | --- | ---
+![animation_diagonal] | ![animation_appearance] | ![animation_divide] | ![animation_up]
+
+
 # About
-  This is a compilation about differents animations between activities :
+  This is a compilation about differents 
+  
+  *animations between activities :
   
  - [ ] Up
  - [ ] Down
  - [ ] Left
  - [ ] Right
  - [ ] Gmail
+ - [ ] Diagonal
+ - [ ] Appearance
+ - [ ] Divide
+ - [ ] iOS
+ - [ ] Navigation
+ - [ ] Scroll Down 
+ - [ ] Default
+ 
+ *transitions between activities:
+ 
+  - [ ] Simple
+  - [ ] RecyclerView -> Detail Item
 
   
   Also visit my blog: **[The developer world is yours](http://thedeveloperworldisyours.com)**
@@ -71,3 +90,14 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+[diagonal]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java
+[appearance]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/AppearanceActivity.java
+[divide]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DivideActivity.java
+[up]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/UpActivity.java
+
+[animation_diagonal]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif
+[animation_appearance]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/appearance.gif
+[animation_divide]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/devide.gif
+[animation_up]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/up.gif
