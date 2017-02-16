@@ -11,7 +11,7 @@
 # About
   This is a compilation about differents 
   
-  *animations between activities :
+  * **animations between activities :
   
  - [ ] Up
  - [ ] Down
@@ -26,7 +26,8 @@
  - [ ] Scroll Down 
  - [ ] Default
  
- *transitions between activities:
+ 
+ * **transitions between activities:
  
   - [ ] Simple
   - [ ] RecyclerView -> Detail Item
