@@ -1,27 +1,25 @@
-package com.thedeveloperworldisyours.lope;
+package com.thedeveloperworldisyours.lope.transition;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.thedeveloperworldisyours.lope.transition.ElementStartActivity;
-import com.thedeveloperworldisyours.lope.transition.VerticalRecyclerViewActivity;
+import com.thedeveloperworldisyours.lope.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MenuTransitionActivity extends AppCompatActivity {
+public class DetailActivity extends AppCompatActivity {
 
-    @BindView(R.id.menu_transition_activity_toolbar)
+    @BindView(R.id.detail_activity_toolbar)
     Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu_transition_activity);
+        setContentView(R.layout.detail_activity);
 
         ButterKnife.bind(this);
 
@@ -41,6 +39,7 @@ public class MenuTransitionActivity extends AppCompatActivity {
 
     public void finishMyActivity() {
         finish();
+        overridePendingTransition(R.anim.appearance_back_in, R.anim.appearance_back_out);
     }
 
     @Override
@@ -51,16 +50,5 @@ public class MenuTransitionActivity extends AppCompatActivity {
                 break;
         }
         return true;
-    }
-
-
-    public void goToElementTransition(View view) {
-        Intent intent = new Intent(this, ElementStartActivity.class);
-        startActivity(intent);
-    }
-
-    public void goToElementRecyclerView(View view) {
-        Intent intent = new Intent(this, VerticalRecyclerViewActivity.class);
-        startActivity(intent);
     }
 }

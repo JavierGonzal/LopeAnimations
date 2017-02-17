@@ -34,4 +34,5 @@ ext {
     junitVersion = '4.12'
     espressoVersion = '2.2.2'
     butterKnife = '8.4.0'
+    glide = '3.7.0'
 }

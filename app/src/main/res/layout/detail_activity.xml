@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thedeveloperworldisyours.lope.transition.DetailActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/detail_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?homeAsUpIndicator"
+        app:titleTextColor="@color/colorPrimary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/detail_activity_toolbar"
+        android:background="@drawable/toolbar_shadow" />
+
+</RelativeLayout>
