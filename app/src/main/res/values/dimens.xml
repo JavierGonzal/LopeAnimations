@@ -7,4 +7,7 @@
     <dimen name="margin_element_list_item">10dp</dimen>
     <dimen name="size_icon">95dp</dimen>
     <dimen name="vertical_list_height">80dp</dimen>
+
+    <dimen name="activity_menu_first_margin_top">40dp</dimen>
+    <dimen name="activity_menu_background_margin_bottom">-150dp</dimen>
 </resources>
