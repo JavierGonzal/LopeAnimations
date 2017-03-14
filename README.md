@@ -4,9 +4,8 @@
 </p>
 
 
-|[Explode][explode_link] | [Slide][slide_link] | [Fade][fade_link]|
-:---:  | :---:  | :---: 
-|![transition_explode] | ![transition_slide] | ![transition_fade]|
+|[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]|[up][up]
+
 
 
 # About
@@ -97,17 +96,6 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
-
-
-[explode_link]: https://developer.android.com/reference/android/transition/Explode.html
-[fade_link]: https://developer.android.com/reference/android/transition/Fade.html
-[slide_link]: https://developer.android.com/reference/android/transition/Slide.html
-
-[transition_explode]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_explode.gif
-[transition_slide]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_slide.gif
-[transition_fade]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_fade.gif
-[transition_fade2]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_fade2.gif
 
 
 [diagonal]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java
