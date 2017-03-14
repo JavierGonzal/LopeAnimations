@@ -3,9 +3,9 @@
  <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portal1470.png" /> 
 </p>
 
-[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide] | [Up][up]
---- | --- | --- | ---
-![animation_diagonal] | ![animation_appearance] | ![animation_divide] | ![animation_up]
+[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]
+--- | --- | ---
+![animation_diagonal] | ![animation_appearance] | ![animation_divide] 
 
 
 # About
