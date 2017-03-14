@@ -6,7 +6,7 @@
 
 |[Diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Appearance](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Divide](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|[up](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|
 | :---:        |     :---:      |     :---:       |     :---:      |
-| ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)   | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)      | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)       | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)       |
+| ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)   | ![animation_diagonal][animation_appearance]     | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)       | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)       |
 
 # About
   This is a compilation about differents 
