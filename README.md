@@ -5,8 +5,8 @@
 
 
 |[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]|[up][Up]|
-| :---:        |     :---:      |          :---: |     :---:       |     :---:      |
-
+| :---:        |     :---:      |     :---:       |     :---:      |
+| git status   | git status     | git status      | git status     |
 
 # About
   This is a compilation about differents 
