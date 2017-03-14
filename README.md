@@ -97,9 +97,16 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+
+[explode_link]: https://developer.android.com/reference/android/transition/Explode.html
+[fade_link]: https://developer.android.com/reference/android/transition/Fade.html
+[slide_link]: https://developer.android.com/reference/android/transition/Slide.html
+
 [transition_explode]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_explode.gif
 [transition_slide]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_slide.gif
 [transition_fade]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_fade.gif
+
+
 [diagonal]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java
 [appearance]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/AppearanceActivity.java
 [divide]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DivideActivity.java
