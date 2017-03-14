@@ -3,6 +3,7 @@
  <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portal1470.png" /> 
 </p>
 
+
 [Explode][explode_link] | [Slide][slide_link] | [Fade][fade_link]
 --- | --- | ---
 ![transition_explode] | ![transition_slide] | ![transition_fade]
