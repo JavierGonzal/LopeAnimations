@@ -4,8 +4,8 @@
 </p>
 
 
-|[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]|[up][up]
-
+|[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]|[up][Up]|
+| :---:        |     :---:      |          :---: |     :---:       |     :---:      |
 
 
 # About
