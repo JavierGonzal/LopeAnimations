@@ -3,9 +3,9 @@
  <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portal1470.png" /> 
 </p>
 
-[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]
+[Explode][explode_link] | [Slide][slide_link] | [Fade][fade_link]
 --- | --- | ---
-![animation_diagonal] | ![animation_appearance] | ![animation_divide] 
+![transition_explode] | ![transition_slide] | ![transition_fade]
 
 
 # About
@@ -97,7 +97,9 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
-
+[transition_explode]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_explode.gif
+[transition_slide]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_slide.gif
+[transition_fade]: https://raw.githubusercontent.com/lgvalle/Material-Animations/master/screenshots/transition_fade.gif
 [diagonal]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java
 [appearance]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/AppearanceActivity.java
 [divide]: https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DivideActivity.java
