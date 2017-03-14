@@ -4,7 +4,7 @@
 </p>
 
 
-|[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide]|[up][Up]|
+|[Diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Appearance]https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java | [Divide]https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java|[up]https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java|
 | :---:        |     :---:      |     :---:       |     :---:      |
 | ![animation_diagonal]   | ![animation_diagonal]    | ![animation_diagonal]      | ![animation_diagonal]     |
 
