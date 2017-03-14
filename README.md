@@ -4,9 +4,9 @@
 </p>
 
 
-[Explode][explode_link] | [Slide][slide_link] | [Fade][fade_link]
+|[Explode][explode_link] | [Slide][slide_link] | [Fade][fade_link]|
 :---:  | :---:  | :---: 
-![transition_explode] | ![transition_slide] | ![transition_fade]
+|![transition_explode] | ![transition_slide] | ![transition_fade]|
 
 
 # About
