@@ -35,4 +35,5 @@ ext {
     espressoVersion = '2.2.2'
     butterKnife = '8.4.0'
     glide = '3.7.0'
+    pageindicatorview = '0.1.1'
 }

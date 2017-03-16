@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.thedeveloperworldisyours.lope.animationtransition.MenuAnimationTransitionActivity;
 import com.thedeveloperworldisyours.lope.transition.ElementStartActivity;
 
 public class MenuActivity extends AppCompatActivity {
@@ -15,7 +16,7 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.menu_activity);
     }
 
-    public void goToTransition(View view) {
+    public void goToAnimation(View view) {
         Intent intent = new Intent(this, MenuAnimationActivity.class);
         startActivity(intent);
     }
@@ -26,6 +27,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void goToAnimationAndTransitions(View view) {
-
+        Intent intent = new Intent(this, MenuAnimationTransitionActivity.class);
+        startActivity(intent);
     }
 }
