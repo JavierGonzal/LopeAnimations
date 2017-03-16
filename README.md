@@ -3,10 +3,10 @@
  <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portal1470.png" /> 
 </p>
 
-[Diagonal][diagonal] | [Appearance][appearance] | [Divide][divide] | [Up][up]
---- | --- | --- | ---
-![animation_diagonal] | ![animation_appearance] | ![animation_divide] | ![animation_up]
 
+|[Diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Appearance](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Divide](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|[up](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|
+| :---:        |     :---:      |     :---:       |     :---:      |
+| ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)   | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/appearance.gif)     | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/devide.gif)       | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/up.gif)       |
 
 # About
   This is a compilation about differents 
