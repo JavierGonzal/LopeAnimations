@@ -10,4 +10,5 @@
 
     <dimen name="activity_menu_first_margin_top">40dp</dimen>
     <dimen name="activity_menu_background_margin_bottom">-150dp</dimen>
+    <dimen name="activity_view_pager_width_fragment_dimension">50dp</dimen>
 </resources>

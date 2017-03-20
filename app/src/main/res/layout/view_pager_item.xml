@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.thedeveloperworldisyours.lope.animationtransition.viewpager.CustomLinearLayout
+        android:id="@+id/view_pager_item_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/view_pager_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/view_pager_item_content"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="@android:color/black"/>
+    </com.thedeveloperworldisyours.lope.animationtransition.viewpager.CustomLinearLayout>
+</LinearLayout>

@@ -14,6 +14,11 @@ public class ViewPagerTransitionActivity extends AppCompatActivity {
     @BindView(R.id.view_pager_transition_activity_view_pager)
     ViewPager mViewPager;
 
+    public final static int PAGES = 5;
+    public final static int FIRST_PAGE = 0  ;
+
+    public CustomPagerAdapter mAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +26,20 @@ public class ViewPagerTransitionActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        mViewPager.setAdapter(new ViewPagerAdapter(getSupportFragmentManager(), this));
+        mAdapter = new CustomPagerAdapter(this, this.getSupportFragmentManager());
+        mViewPager.setAdapter(mAdapter);
+        mViewPager.setPageTransformer(false, mAdapter);
+
+        // Set current item to the middle page so we can fling to both
+        // directions left and right
+        mViewPager.setCurrentItem(FIRST_PAGE);
+
+        // Necessary or the mViewPager will only have one extra page to show
+        // make this at least however many pages you can see
+        mViewPager.setOffscreenPageLimit(3);
+
+        // Set margin for pages as a negative number, so a part of next and
+        // previous pages will be showed
+        mViewPager.setPageMargin(-400);
     }
 }
