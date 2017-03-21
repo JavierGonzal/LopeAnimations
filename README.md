@@ -31,6 +31,9 @@
  
  - [ ] Simple element
  - [ ] RecyclerView -> Detail Item
+ 
+ * transitions
+ - [ ] Carousel with ViewPager
 
   
   Also visit my blog: **[The developer world is yours](http://thedeveloperworldisyours.com)**
