@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:attrs="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/view_pager_transition_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context="com.thedeveloperworldisyours.lope.animationtransition.viewpager.ViewPagerTransitionActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/view_pager_transition_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?homeAsUpIndicator"
+        app:titleTextColor="@color/colorPrimary" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager_transition_activity_view_pager"
         android:layout_width="match_parent"
-        android:background="@android:color/holo_orange_dark"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_pager_transition_activity_toolbar" />
 
     <com.rd.PageIndicatorView
         android:id="@+id/tutorial_activity_page_indicator_view"
@@ -25,6 +35,19 @@
         attrs:piv_interactiveAnimation="true"
         attrs:piv_padding="16dp"
         attrs:piv_radius="8dp"
+        attrs:piv_selectedColor="@color/colorPrimaryDark"
+        attrs:piv_unselectedColor="@android:color/white"
         attrs:piv_viewPager="@id/view_pager_transition_activity_view_pager" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/view_pager_transition_activity_toolbar"
+        android:background="@drawable/toolbar_shadow" />
 </RelativeLayout>
