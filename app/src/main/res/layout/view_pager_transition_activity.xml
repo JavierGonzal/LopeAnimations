@@ -9,7 +9,6 @@
     android:background="@color/colorPrimary"
     tools:context="com.thedeveloperworldisyours.lope.animationtransition.viewpager.ViewPagerTransitionActivity">
 
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/view_pager_transition_activity_toolbar"
         android:layout_width="match_parent"
