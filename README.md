@@ -8,6 +8,11 @@
 | :---:        |     :---:      |     :---:       |     :---:      |
 | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)   | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/appearance.gif)     | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/devide.gif)       | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/up.gif)       |
 
+
+<p align="center">
+ <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/carouselViewPager.gif" width="300px" />
+</p>
+
 # About
   This is a compilation about differents 
   
