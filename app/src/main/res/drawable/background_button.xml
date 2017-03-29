@@ -2,10 +2,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list_view_background_shape">
     <padding
-        android:bottom="2dp"
-        android:left="2dp"
-        android:right="2dp"
-        android:top="2dp" />
+        android:bottom="@dimen/background_button_padding"
+        android:left="@dimen/background_button_padding"
+        android:right="@dimen/background_button_padding"
+        android:top="@dimen/background_button_padding" />
     <corners android:radius="3dp" />
     <solid android:color="@color/colorPrimaryDark" />
 </shape>
