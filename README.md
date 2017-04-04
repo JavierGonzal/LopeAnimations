@@ -2,23 +2,18 @@
 <p align="center">
  <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/portal1470.png" /> 
 </p>
-
-
-|[Diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Appearance](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Divide](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|[up](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|
-| :---:        |     :---:      |     :---:       |     :---:      |
-| ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)   | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/appearance.gif)     | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/devide.gif)       | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/up.gif)       |
-
-
-<p align="center">
- <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/carouselViewPager.gif" width="300px" />
-</p>
-
 # About
   This is a compilation about differents 
   
   * animations between activities :
   
- - [ ] Up
+ 
+
+|[Diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Appearance](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java) | [Divide](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|[up](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/app/src/main/java/com/thedeveloperworldisyours/lope/DiagonalActivity.java)|
+| :---:        |     :---:      |     :---:       |     :---:      |
+| ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/diagonal.gif)   | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/appearance.gif)     | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/devide.gif)       | ![animation_diagonal](https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/up.gif)       |
+
+- [ ] Up
  - [ ] Down
  - [ ] Left
  - [ ] Right
@@ -32,15 +27,18 @@
  - [ ] Default
  
  
- * transitions between activities:
+  * transitions between activities:
  
  - [ ] Simple element
  - [ ] RecyclerView -> Detail Item
  
  * transitions
  - [ ] Carousel with ViewPager
+ 
+<p align="center">
+ <img src="https://github.com/CabezasGonzalezJavier/LopeAnimations/blob/master/carouselViewPager.gif" width="300px" />
+</p>
 
-  
   Also visit my blog: **[The developer world is yours](http://thedeveloperworldisyours.com)**
   
 <a href="http://thedeveloperworldisyours.com/">
