@@ -4,13 +4,13 @@
     android:layout_height="@dimen/vertical_list_height">
 
     <TextView
-        android:id="@+id/vertical_list_item_title"
+        android:id="@+id/init_animation_recycler_view_item_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:typeface="monospace"
         android:layout_centerVertical="true"
         android:text="android:"
-        android:layout_toRightOf="@+id/vertical_list_item_subtitle"
+        android:layout_toRightOf="@+id/init_animation_recycler_view_item_subtitle"
         android:layout_margin="@dimen/margin_element_list_item"
         android:textSize="20sp" />
 

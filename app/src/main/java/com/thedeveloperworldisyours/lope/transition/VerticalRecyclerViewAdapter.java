@@ -1,7 +1,6 @@
 package com.thedeveloperworldisyours.lope.transition;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,8 +34,8 @@ public class VerticalRecyclerViewAdapter extends RecyclerView
 
         DataObjectHolder(View itemView) {
             super(itemView);
-            mLabel = (TextView) itemView.findViewById(R.id.vertical_list_item_title);
-            mImage = (ImageView) itemView.findViewById(R.id.vertical_list_item_subtitle);
+            mLabel = (TextView) itemView.findViewById(R.id.init_animation_recycler_view_item_title);
+            mImage = (ImageView) itemView.findViewById(R.id.init_animation_recycler_view_item_subtitle);
             itemView.setOnClickListener(this);
         }
 

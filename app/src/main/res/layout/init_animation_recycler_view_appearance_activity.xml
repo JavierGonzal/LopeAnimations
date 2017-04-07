@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/init_animation_recycler_view_activity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/init_animation_recycler_view_appearance_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.thedeveloperworldisyours.lope.animationtransition.recyclerview.InitAnimationRecyclerViewActivity">
+    tools:context="com.thedeveloperworldisyours.lope.animationtransition.recyclerview.InitAnimationRecyclerViewAppearanceActivity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
         android:src="@drawable/title" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/init_animation_recycler_view_activity_toolbar"
+        android:id="@+id/init_animation_recycler_view_appearance_activity_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?homeAsUpIndicator"
@@ -24,16 +24,13 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_below="@+id/init_animation_recycler_view_activity_toolbar"
+        android:layout_below="@+id/init_animation_recycler_view_appearance_activity_toolbar"
         android:background="@drawable/toolbar_shadow" />
 
-    <Button
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/init_animation_recycler_view_appearance_activity_recycler_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="@drawable/background_button"
-        android:onClick="appearance"
-        android:text="@string/activity_main_appearance"
-        android:textColor="@color/colorTextButton" />
+        android:layout_below="@+id/init_animation_recycler_view_appearance_activity_toolbar" />
 
 </RelativeLayout>

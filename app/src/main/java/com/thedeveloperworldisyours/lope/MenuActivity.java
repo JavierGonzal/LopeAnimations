@@ -5,9 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.thedeveloperworldisyours.lope.animationtransition.MenuAnimationTransitionActivity;
-import com.thedeveloperworldisyours.lope.transition.ElementStartActivity;
-
 public class MenuActivity extends AppCompatActivity {
 
     @Override

@@ -95,10 +95,15 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".animationtransition.MenuAnimationTransitionActivity"
+            android:name=".MenuAnimationTransitionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".animationtransition.recyclerview.InitAnimationRecyclerViewActivity"
+        <activity
+            android:name=".animationtransition.recyclerview.InitAnimationRecyclerViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".animationtransition.recyclerview.InitAnimationRecyclerViewAppearanceActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

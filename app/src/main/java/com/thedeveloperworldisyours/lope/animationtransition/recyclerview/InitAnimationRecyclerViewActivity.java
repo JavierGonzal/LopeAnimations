@@ -1,5 +1,6 @@
 package com.thedeveloperworldisyours.lope.animationtransition.recyclerview;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -30,8 +31,8 @@ public class InitAnimationRecyclerViewActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    public void back(View view) {
-        finishMyActivity();
+    public void appearance(View view) {
+        startActivity(new Intent(this, InitAnimationRecyclerViewAppearanceActivity.class));
     }
 
     @Override
