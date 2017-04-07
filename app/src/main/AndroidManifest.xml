@@ -90,12 +90,17 @@
             android:name=".transition.DetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".animationtransition.viewpager.ViewPagerTransitionActivity"
+        <activity
+            android:name=".animationtransition.viewpager.ViewPagerTransitionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".animationtransition.MenuAnimationTransitionActivity"
+        <activity
+            android:name=".animationtransition.MenuAnimationTransitionActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".animationtransition.recyclerview.InitAnimationRecyclerViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

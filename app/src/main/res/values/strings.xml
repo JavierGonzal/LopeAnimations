@@ -21,6 +21,7 @@
     <string name="activity_menu_animation_and_transition_between_activities">Animation and Transition</string>
 
     <string name="activity_menu_animation_transition_view_pager_button">View Pager \nTransition</string>
+    <string name="activity_menu_animation_transition_recycler_view_button">Recycler View \nAnimation</string>
 
     <string name="activity_vertical_recycler_view">RecyclerView</string>
 

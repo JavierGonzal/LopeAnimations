@@ -38,4 +38,17 @@
         android:text="@string/activity_menu_animation_transition_view_pager_button"
         android:textColor="@color/colorTextButton" />
 
+    <Button
+        android:id="@+id/menu_animation_transition_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_animation_transition_activity_view_pager_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_menu_first_margin_top"
+        android:background="@drawable/background_button"
+        android:onClick="gotToInitAnimationRecyclerView"
+        android:padding="@dimen/padding_view"
+        android:text="@string/activity_menu_animation_transition_recycler_view_button"
+        android:textColor="@color/colorTextButton" />
+
 </RelativeLayout>
