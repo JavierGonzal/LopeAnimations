@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.thedeveloperworldisyours.lope.transition.CollapsingToolbarActivity;
 import com.thedeveloperworldisyours.lope.transition.ElementStartActivity;
 import com.thedeveloperworldisyours.lope.transition.VerticalRecyclerViewActivity;
 
@@ -61,6 +62,11 @@ public class MenuTransitionActivity extends AppCompatActivity {
 
     public void goToElementRecyclerView(View view) {
         Intent intent = new Intent(this, VerticalRecyclerViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToCollapsing(View view) {
+        Intent intent = new Intent(this, CollapsingToolbarActivity.class);
         startActivity(intent);
     }
 }

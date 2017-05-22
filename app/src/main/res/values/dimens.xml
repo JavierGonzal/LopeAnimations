@@ -13,4 +13,7 @@
     <dimen name="activity_view_pager_width_fragment_dimension">50dp</dimen>
 
     <dimen name="background_button_padding">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="collapsing">180dp</dimen>
 </resources>

@@ -28,5 +28,8 @@
     <string name="blue_name">Blue</string>
 
     <string name="hello_blank_fragment">dd</string>
+    <string name="title_activity_collapsing_toolbar">CollapsingToolbarActivity</string>
+
+    <string name="activity_collapsing_toolbar_title">Collapsing</string>
 
 </resources>
