@@ -55,10 +55,4 @@ public class ElementEndActivity extends AppCompatActivity {
         return true;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    private void setupWindowAnimations() {
-        Slide slide = (Slide) TransitionInflater.from(this).inflateTransition(R.transition.slide_and_changebounds);
-        getWindow().setExitTransition(slide);
-    }
-
 }

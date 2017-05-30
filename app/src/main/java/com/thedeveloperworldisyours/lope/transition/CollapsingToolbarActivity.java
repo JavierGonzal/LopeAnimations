@@ -42,7 +42,7 @@ public class CollapsingToolbarActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CollapsingActivity.class);
         String transitionName = getString(R.string.blue_name);
         ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(this, mImageView, transitionName);
-        startActivity(intent);
+        startActivity(intent, transitionActivityOptions.toBundle());
     }
 
 }

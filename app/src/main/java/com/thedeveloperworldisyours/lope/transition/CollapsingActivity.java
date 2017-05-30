@@ -12,4 +12,5 @@ public class CollapsingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.collapsing_activity);
     }
+
 }
