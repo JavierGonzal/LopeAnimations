@@ -114,6 +114,7 @@
             android:name=".transition.CollapsingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".animation.AttachWhatsappActivity"></activity>
     </application>
 
 </manifest>

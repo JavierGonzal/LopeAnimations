@@ -1,9 +1,10 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "$rootProject.buildToolsVersion"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.thedeveloperworldisyours.lope"
         minSdkVersion 21
@@ -44,4 +45,5 @@ dependencies {
 
     //glide
     compile "com.github.bumptech.glide:glide:$rootProject.glide"
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
 }
